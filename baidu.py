@@ -8,7 +8,6 @@ import requests,csv
 #     url = 'http://api.map.baidu.com/geocoder/v2/?address='
 #     url3 = 'http://api.map.baidu.com/geocoding/v3/?address=北京市海淀区上地十街10号&output=json&ak=您的ak&callback=showLocation'
 #     output = 'json'
-#     ak = 'Czisx4SsRGajk4mTuAHRyjxDk2p7SGRr'
 #     add = quote(adress)#使用quote进行编码 为了防止中文乱码
 #     url2 = url + add + '&output=' + output + '&ak=' + ak + '&callback=showLocation'
 #     req = urlopen(url3)
